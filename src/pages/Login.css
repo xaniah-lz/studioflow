@@ -203,3 +203,37 @@
     left: 90%;
     transform: translate(-50%, -50%);
   }
+  .footer {
+    background-color: #e0e0e0;
+    padding: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+}
+
+.footer .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.footer .column {
+    text-align: left;
+}
+
+.footer .column h3 {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.footer .column p {
+    font-size: 0.9em;
+    color: #333;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px;
+    font-size: 0.9em;
+    background-color: #e0e0e0;
+}

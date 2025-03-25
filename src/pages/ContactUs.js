@@ -10,6 +10,7 @@ import youtubeIcon from "../images/youtube.png";
 
 const ContactUs = () => {
   return (
+    <div>
     <div className="contact-container">
       {/* Left Section */}
       <div className="contact-left">
@@ -68,6 +69,29 @@ const ContactUs = () => {
         </form>
       </div>
     </div>
+    <footer className="footer">
+      <div className="logo">YOUR LOGO<br /><small>Your Tagging here</small></div>
+      <div className="column">
+        <h3>Title here</h3>
+        <p>text</p>
+        <p>text</p>
+        <p>text</p>
+      </div>
+      <div className="column">
+        <h3>Title here</h3>
+        <p>text</p>
+        <p>text</p>
+        <p>text</p>
+      </div>
+      <div className="column">
+        <h3>Contact Us</h3>
+        <p>info@company.com</p>
+        <p>123-456-7890</p>
+      </div>
+      
+    </footer>
+    </div>
+    
   );
 };
 
@@ -81,5 +105,6 @@ const ContactItem = ({ icon, text, alt }) => (
 const SocialIcon = ({ src, alt }) => (
   <img src={src} alt={alt} className="social-icon" />
 );
+
 
 export default ContactUs;

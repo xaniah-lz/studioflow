@@ -20,7 +20,10 @@ const App = () => {
         <Route path="/register" element={<Register />} />
         <Route path="/login" element={<Login />} />
       </Routes>
+      <div className="footer-bottom">&copy;2025 COMPANY NAME, LLC. All rights reserved.</div>
+
     </div>
+    
   );
 };
 

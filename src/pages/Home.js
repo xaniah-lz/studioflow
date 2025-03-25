@@ -57,8 +57,99 @@ const Home = () => {
           </div>
         </div>
       )}
+       <div className="testimonials-container">
+      <h2 className="title">Testimonials <span className="line"></span></h2>
+      <div className="carousel">
+        <button className="prev">&#x2039;</button>
+        <div className="cards">
+          <div className="card">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <div className="customer-info">
+              <img src="user-icon.png" alt="User" />
+              <span>Customer Name</span>
+              <span className="rating">⭐ 4.9</span>
+            </div>
+          </div>
+          <div className="card">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <div className="customer-info">
+              <img src="user-icon.png" alt="User" />
+              <span>Customer Name</span>
+              <span className="rating">⭐ 4.9</span>
+            </div>
+          </div>
+          <div className="card">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <div className="customer-info">
+              <img src="user-icon.png" alt="User" />
+              <span>Customer Name</span>
+              <span className="rating">⭐ 4.9</span>
+            </div>
+          </div>
+          <div className="card">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <div className="customer-info">
+              <img src="user-icon.png" alt="User" />
+              <span>Customer Name</span>
+              <span className="rating">⭐ 4.9</span>
+            </div>
+          </div>
+        </div>
+        <button className="next">&#x203A;</button>
+      </div>
+      <div className="dots">
+        <span className="dot active"></span>
+        <span className="dot"></span>
+        <span className="dot"></span>
+      </div>
     </div>
+
+    <div className="faq-container">
+      <div className="faq-content">
+        <h2>FAQ’s</h2>
+        <p>Everything You Need to Know</p>
+        <select>
+          <option>Lorem ipsum dolor sit amet?</option>
+        </select>
+        <select>
+          <option>Lorem ipsum dolor sit amet?</option>
+        </select>
+        <select>
+          <option>Lorem ipsum dolor sit amet?</option>
+        </select>
+      </div>
+      <div className="faq-image">
+        <img src={speaker} alt="FAQ Illustration" />
+      </div>
+    </div>
+
+    <footer className="footer">
+      <div className="logo">YOUR LOGO<br /><small>Your Tagging here</small></div>
+      <div className="column">
+        <h3>Title here</h3>
+        <p>text</p>
+        <p>text</p>
+        <p>text</p>
+      </div>
+      <div className="column">
+        <h3>Title here</h3>
+        <p>text</p>
+        <p>text</p>
+        <p>text</p>
+      </div>
+      <div className="column">
+        <h3>Contact Us</h3>
+        <p>info@company.com</p>
+        <p>123-456-7890</p>
+      </div>
+      
+    </footer>
+    </div>
+    
+
   );
 };
+
+
 
 export default Home;

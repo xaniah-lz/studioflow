@@ -14,6 +14,7 @@ const Login = () => {
   };
 
   return (
+    <div>
     <div className="login-page">
       <div className="login-container">
         <form className="login-form" onSubmit={handleSubmit}>
@@ -68,6 +69,28 @@ const Login = () => {
         </h2> 
         <button className="banner-button">Button</button>
       </div>
+    </div>
+    <footer className="footer">
+      <div className="logo">YOUR LOGO<br /><small>Your Tagging here</small></div>
+      <div className="column">
+        <h3>Title here</h3>
+        <p>text</p>
+        <p>text</p>
+        <p>text</p>
+      </div>
+      <div className="column">
+        <h3>Title here</h3>
+        <p>text</p>
+        <p>text</p>
+        <p>text</p>
+      </div>
+      <div className="column">
+        <h3>Contact Us</h3>
+        <p>info@company.com</p>
+        <p>123-456-7890</p>
+      </div>
+      
+    </footer>
     </div>
   );
 };
